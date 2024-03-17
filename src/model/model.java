@@ -1,15 +1,17 @@
 package model;
 
 public class model {
+
+    //Creación de variables 
     private String titulo;
     private String autor;
-    private int year;
+    private String resumen;
 
     //Constructor con parámetros
-    public model(String titulo, String autor, int year){
+    public model(String titulo, String autor, String resumen){
         this.titulo = titulo;
         this.autor = autor;
-        this.year = year;
+        this.resumen = resumen;
     }
 
     //Getters and Setters
@@ -29,12 +31,12 @@ public class model {
         this.autor = autor;
     }
 
-    public int getYear() {
-        return year;
+    public String getResumen() {
+        return resumen;
     }
 
-    public void setYear(int year) {
-        this.year = year;
-    }
+    public void setResumen(String resumen) {
+        this.resumen = resumen;
+    }    
     
 }
