@@ -23,7 +23,7 @@ public class controller {
     private static final String DB_URL = "jdbc:mysql://localhost:3306/google_search_api";
     private static final String DB_USERNAME = "root";
     private static final String DB_PASSWORD = "Neo04092016@@";
-    private static final int maxResultados = 3;
+    private static final int maxResultados = 10;
 
     public void fetchScholarData(String apiKey, String searchQuery, DefaultTableModel tableModel) throws IOException, InterruptedException {
 
